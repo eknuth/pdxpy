@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block title %}The current time{% endblock %}
+
+{% block content %}
+<div class="bodytext" style="padding:12px;" align="justify">
+  <strong>This is a demo site created with pdx.py, a geodjango project for building geographic web applications for Portland using the python language.
+It comes preloaded with data released by local government agencies in association with the CivicApps challenge.<br/>  <br/>
+pdx.py is an implementation of the Portland Application Development Framework, which was selected for an award as part of the Idea phase of the 2010 CivicApps Challenge.</strong><br />
+  <br />
+pdx.py consists of:
+<ul>
+  <li>Django, a mature and powerful open source web development framework for python with GIS extensions</li>
+  <li>Object-relational models of CivicApps datasets, which can be spatially queried</li>
+  <li>Methods for loading CivicApps datasets from ESRI shapefiles into PostGIS, a powerful relational geodatabase based on PostgreSQL</li>
+  <li>An administrative interface for editing the geographic features and attributes of the models</li>
+  <li>Web Mapping templates using the Google Maps API, Open Layers and Open Street Maps</li>
+</ul>
+<strong>To try out the <a href="/admin/">Admin control panel</a>, use username: demo, password: demo to authenticate.</strong><br/><br/>
+<!--<div class="panel" align="justify">
+  <span class="orangetitle"></span>
+  <span class="bodytext"><br /></!-->
+This project has been submitted as an App for the 2010 CivicApps Challenge.<br/>
+Feel free to use pdx.py for as a starting point for creating your own Portland specific web applications.
+The code is available as an open source project on GitHub and contributors are welcome.<br/><br/>
+Please do not hesitate to contact me for assistance or consulting via <a href="http://iknuth.com/about">iknuth.com</a> or by email at <a href=mailto:edwin@iknuth.com>edwin@iknuth.com</a>.
+<!--  </span></div> /!-->
+
+ToDo:
+<ul>
+  <li>Add Mapping to Dataset Browser</li>
+  <li>Add more datasets and load features for models with zero records</li>
+</ul>
+Models Successfully Loaded:
+<ul>
+	<li>Storefront Improvement Area</li>
+    <li>Bridge</li>
+    <li>Leaf Pickup</li>
+    <li>Signage Lighting Improvement Program</li>
+    <li>LID Street</li>
+    <li>Urban Renewal Area</li>
+    <li>Curb</li>
+    <li>Parks Easement</li>
+    <li>Business Association</li>
+</ul>
+Models with issues
+<ul>
+	<li>Bicycle Network </li>
+    <li>Park Taxlot </li>
+    <li>Curb Ramp </li>
+    <li>Parks Vegetation Survey </li>
+    <li>Pavement Maint </li>
+    <li>Zoning Arrow </li>
+    <li>Zoning Line </li>
+    <li>Zoning Anno </li>
+    <li>Zoning Area </li>
+    <li>Park </li>
+    <li>Bicycle Parking Area </li>
+    <li>Heritage Tree </li>
+    <li>Sidewalk </li>
+    <li>Guardrail </li>
+    <li>LID Boundary </li>
+    <li>TSP Classification </li>
+    <li>Development Opportunity Area </li>
+    <li>Improved Corner </li>
+    <li>TSP District Boundary </li>
+    <li>Parks Desired Future Condition </li>
+    <li>Homebuyer Opportunity Area </li>
+    <li>Transit Station </li>
+    <li>Pavement Moratorium </li>
+    <li>Zipcode </li>
+    <li>Parks Trail </li>
+</ul>
+</div>
+</div>
+{% endblock %}

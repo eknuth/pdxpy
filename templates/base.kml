@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+  {% for feature in features %}
+    <Placemark>
+      <name>photomapapp.com:photo</name>
+      <description>
+        <![CDATA[
+          <p><img src="{{ photo.get_thumbnail_url }}"></p>
+        ]]>
+      </description>
+     {{ features.kml }}
+    </Placemark>
+    {% endfor %}
+  </Document>
+</kml>

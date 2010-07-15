@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <script src="http://www.google.com/jsapi?key=ABQIAAAAkUlmIW1X-La8Y_JDbMsIaBSqUPoXTYqX9SjEAUsCGtETAqKzMxRmKz4wi_KdXnzkZOiOWMNxCU-9uA" type="text/javascript"></script>
+	<meta name="author" content="Wink Hosting (www.winkhosting.com)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link rel="stylesheet" href="/static/css/style.css" type="text/css" />
+	<title>pdx.py: portland application development framework</title>
+
+    {% block head %}{% endblock %}
+</head>
+<body>
+	<div id="page" align="center">
+		<div id="toppage" align="center">
+			<div id="date">
+				<div class="smalltext" style="padding:13px;"><strong>2010 CivicApps Challenge</strong></div>
+			</div>
+			<div id="topbar">
+				<div align="right" style="padding:12px;" class="smallwhitetext"><a href="http://pdxpy.iknuth.com/">Home</a> | <a href="http://iknuth.com/about">Contact Us</a></div>
+			</div>
+		</div>
+		<div id="header" align="center">
+			<div class="titletext" id="logo">
+				<div class="logotext" style="margin:5px">
+				<a href="/"><img src=/static/images/pdxpy_logo.png width=150></a></div> 
+			</div>
+			<div id="pagetitle">
+				<div id="title" class="titletext" align="right">Portland Application Development Framework</div>
+			</div>
+		</div>
+		<div id="content" align="center">
+			<div id="menu" align="right">
+				<div align="right" style="width:189px; height:8px;"><img src="/static/images/mnu_topshadow.gif" width="189" height="8" alt="mnutopshadow" /></div>
+				<div id="linksmenu" align="center">
+					<a href="/browse" title="Browse">Browse Datasets</a>
+					<a href="/admin/" title="admin">pdx.py Admin</a>
+					<a href="/maps" title="maps">pdx.py Maps</a>
+					<a href="http://github.com/eknuth/pdxpy" title="Github">Github Repository</a>
+					<a href="http://github.com/eknuth/pdxpy/issues" title="bugs">Issue Tracker</a>
+					<a href="http://civicapps.org" title="CivicApps">CivicApps Challenge</a>
+					<a href="http://iknuth.com" title="iknuth">iknuth.com</a>
+				</div>
+				<div align="right" style="width:189px; height:8px;"><img src="/static/images/mnu_bottomshadow.gif" width="189" height="8" alt="mnubottomshadow" /></div>
+			</div>
+					<div id="contenttext">
+    {% block content %}{% endblock %}
+		</div>
+
+		<div id="footer" class="smallgraytext" align="center">
+			<!-- <a href="#">Home</a> | <a href="#">About Us</a> | <a href="#">Products</a> | <a href="#">Our Services</a> | <a href="#">Contact Us</a><br /> /!-->
+			iknuth.com &copy; 2010<br />
+			Design based on a template from <a href=http://oswd.org>Open Source Web Design</a>:
+			<a href="http://www.winkhosting.com" title="Hosting Colombia">Hosting Colombia</a><br />
+		</div>
+	</div>
+</body>
+</html>
